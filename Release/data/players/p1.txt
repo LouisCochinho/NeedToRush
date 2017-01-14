@@ -1,0 +1,6 @@
+player/p1_run.png
+player/p1_stand.png
+player/p1_saut.png
+
+25 16 3 
+

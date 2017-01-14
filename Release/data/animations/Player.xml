@@ -1,0 +1,36 @@
+<root>
+	<Entity name = "Player" defaultAnimation="stand" scale ="0.4">
+	  <Animation name="marche" texture="player/zera_course" timeLoop="800" hitBoxX="130" hitBoxY="175">
+		<Frame left="35"   top="0" width="130" height="200"/>
+		<Frame left="235"   top="0" width="130" height="200"/>
+		<Frame left="435"   top="0" width="130" height="200"/>
+		<Frame left="635"   top="0" width="130" height="200"/>
+		<Frame left="835"   top="0" width="130" height="200"/>
+		<Frame left="1035"   top="0" width="130" height="200"/>
+		<Frame left="1235"   top="0" width="130" height="200"/>
+		<Frame left="1435"   top="0" width="130" height="200"/>
+	  </Animation>
+	  <Animation name="saut" texture="player/zera_saut" timeLoop="1400" hitBoxX="130" hitBoxY="175">
+		<Frame left="35"   top="0" width="130" height="200"/>
+		<Frame left="235"   top="0" width="130" height="200"/>
+		<Frame left="435"   top="0" width="130" height="200"/>
+		<Frame left="635"   top="0" width="130" height="200"/>
+		<Frame left="835"   top="0" width="130" height="200"/>
+		<Frame left="1035"   top="0" width="130" height="200"/>
+		<Frame left="1235"   top="0" width="130" height="200"/>
+		<Frame left="1435"   top="0" width="130" height="200"/>
+		<Frame left="1635"   top="0" width="130" height="200"/>
+		<Frame left="1835"   top="0" width="130" height="200"/>
+	  </Animation>
+	  <Animation name="stand" texture="player/zera_stand" timeLoop="1000" hitBoxX="130" hitBoxY="175">
+		<Frame left="35"   top="0" width="130" height="200"/>
+		<Frame left="235"   top="0" width="130" height="200"/>
+		<Frame left="435"   top="0" width="130" height="200"/>
+		<Frame left="635"   top="0" width="130" height="200"/>
+		<Frame left="835"   top="0" width="130" height="200"/>
+		<Frame left="1035"   top="0" width="130" height="200"/>
+		<Frame left="1235"   top="0" width="130" height="200"/>
+		<Frame left="1435"   top="0" width="130" height="200"/>
+	  </Animation>
+	</Entity>
+</root>

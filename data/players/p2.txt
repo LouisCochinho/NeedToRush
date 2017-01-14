@@ -1,0 +1,6 @@
+player/p2_run.png
+player/p2_stand.png
+player/p2_saut.png
+
+73 71 72 
+

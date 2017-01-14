@@ -1,0 +1,28 @@
+﻿Build started 01/02/2015 16:11:45.
+     1>Project "C:\Users\acer\Documents\Visual Studio 2013\Projects\ZeraGameTemplate-master\SFMLGame.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\Box2D\include /I".\SFML-2.1\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt sources\Camera.cpp sources\Entity.cpp sources\Game.cpp sources\main.cpp sources\Player.cpp sources\Tile.cpp sources\TileSetedMap.cpp sources\Walkable.cpp
+         Walkable.cpp
+         TileSetedMap.cpp
+         Tile.cpp
+         Player.cpp
+         main.cpp
+         Game.cpp
+         Entity.cpp
+         Camera.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\acer\Documents\Visual Studio 2013\Projects\ZeraGameTemplate-master\Debug\SFML Game.exe" /INCREMENTAL /NOLOGO /LIBPATH:.\Box2D\lib /LIBPATH:".\SFML-2.1\libs\Debug" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "Box2D-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\acer\Documents\Visual Studio 2013\Projects\ZeraGameTemplate-master\Debug\SFML Game.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\acer\Documents\Visual Studio 2013\Projects\ZeraGameTemplate-master\Debug\SFML Game.lib" /MACHINE:X86 Debug\Camera.obj
+         Debug\Entity.obj
+         Debug\Game.obj
+         Debug\main.obj
+         Debug\Player.obj
+         Debug\Tile.obj
+         Debug\TileSetedMap.obj
+         Debug\Walkable.obj
+     1>LINK : fatal error LNK1104: cannot open file 'kernel32.lib'
+     1>Done Building Project "C:\Users\acer\Documents\Visual Studio 2013\Projects\ZeraGameTemplate-master\SFMLGame.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.06
